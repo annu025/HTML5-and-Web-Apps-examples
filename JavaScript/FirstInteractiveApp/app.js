@@ -6,6 +6,7 @@ var main = function () {
 		if ($(".comment-input input").val() !== "") {
 			$new_comment = $("<p>").text($(".comment-input input").val()); 
 			$(".comments").append($new_comment);
+			$(".comment-input input").val("");
 		}
 		 // = $("<p>"),
 //                 comment_text = $(".comment-input input").val();
